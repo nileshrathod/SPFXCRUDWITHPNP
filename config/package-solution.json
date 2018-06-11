@@ -1,0 +1,12 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "spfxcrud-client-side-solution",
+    "id": "9474acef-a67d-4c56-97f0-2225179f97b9",
+    "version": "2.0.0.0",
+    "includeClientSideAssets": true
+  },
+  "paths": {
+    "zippedPackage": "solution/spfxcrud.sppkg"
+  }
+}
