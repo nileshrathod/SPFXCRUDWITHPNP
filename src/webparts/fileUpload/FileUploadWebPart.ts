@@ -30,8 +30,7 @@ export default class FileUploadWebPart extends BaseClientSideWebPart<IFileUpload
 
   UploadFiles() {
 
-
-    let siteUrl = "https://sharepointheliossolutions.sharepoint.com/sites/Intranet";
+    var siteUrl =this.context.pageContext.web.absoluteUrl ;
     let web = new Web(siteUrl);
     let folderpath = "/sites/Intranet/Documents/";
 
