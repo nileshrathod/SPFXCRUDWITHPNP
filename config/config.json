@@ -25,6 +25,14 @@
           "manifest": "./src/webparts/editEmployee/EditEmployeeWebPart.manifest.json"
         }
       ]
+    },
+    "file-upload-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/fileUpload/FileUploadWebPart.js",
+          "manifest": "./src/webparts/fileUpload/FileUploadWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {
@@ -52,6 +60,7 @@
   "localizedResources": {
     "SpfxcrudwpWebPartStrings": "lib/webparts/spfxcrudwp/loc/{locale}.js",
     "ViewEmployeeWebPartStrings": "lib/webparts/viewEmployee/loc/{locale}.js",
-    "EditEmployeeWebPartStrings": "lib/webparts/editEmployee/loc/{locale}.js"
+    "EditEmployeeWebPartStrings": "lib/webparts/editEmployee/loc/{locale}.js",
+    "FileUploadWebPartStrings": "lib/webparts/fileUpload/loc/{locale}.js"
   }
 }
